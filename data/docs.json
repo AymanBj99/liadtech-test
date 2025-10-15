@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Deep Learning for Vision",
+    "abstract": "Neural networks for image recognition, convolutional architectures, and computer vision tasks."
+  },
+  {
+    "id": 2,
+    "title": "Natural Language Processing",
+    "abstract": "Techniques for understanding, generating, and translating human languages using transformer models."
+  },
+  {
+    "id": 3,
+    "title": "Reinforcement Learning",
+    "abstract": "Training intelligent agents through rewards and exploration in simulated environments."
+  },
+  {
+    "id": 4,
+    "title": "Graph Neural Networks",
+    "abstract": "Learning from structured data using graph-based methods and node embeddings."
+  },
+  {
+    "id": 5,
+    "title": "Transformers in NLP",
+    "abstract": "Attention mechanisms for large language models such as BERT and GPT."
+  },
+  {
+    "id": 6,
+    "title": "Computer Vision and Object Detection",
+    "abstract": "Detection and segmentation of objects using deep convolutional models and YOLO architectures."
+  },
+  {
+    "id": 7,
+    "title": "Speech Recognition",
+    "abstract": "Automatic transcription of spoken language using deep recurrent networks and transformers."
+  },
+  {
+    "id": 8,
+    "title": "Transfer Learning in AI",
+    "abstract": "Reusing pre-trained models for new tasks to improve learning efficiency and accuracy."
+  },
+  {
+    "id": 9,
+    "title": "Optimization in Machine Learning",
+    "abstract": "Gradient-based methods, Adam optimizer, and techniques to improve convergence."
+  },
+  {
+    "id": 10,
+    "title": "Ethics in Artificial Intelligence",
+    "abstract": "Challenges of fairness, transparency, and accountability in AI systems."
+  }
+]
+
+
+
