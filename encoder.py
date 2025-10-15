@@ -59,4 +59,4 @@ if __name__ == "__main__":
     print("Taille des embeddings (queries) :", query_embeddings.shape)
 
     print("✅ Encodage terminé !")
-    print("Taille des embeddings :", doc_embeddings.shape)
+    print("Taille des embeddings :", doc_embeddings.shape) 
