@@ -1,18 +1,15 @@
 # encoder.py
 from transformers import AutoTokenizer, AutoModel
 import torch
+import torch.nn as nn
 
-class TextEncoder:
+class TextEncoder(nn.Module):
     def __init__(self, model_name="bert-base-uncased", device=None):
-        # Choisir le GPU si disponible
+        super(TextEncoder, self).__init__()
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-
         print(f"🔹 Chargement du modèle {model_name} sur {self.device}...")
-
-        # Charger le tokenizer et le modèle BERT
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModel.from_pretrained(model_name).to(self.device)
-        self.model.eval()  # mode évaluation
 
     def encode(self, texts, max_length=128, batch_size=8):
         """
@@ -46,7 +43,7 @@ class TextEncoder:
 
 
 if __name__ == "__main__":
-    from train import load_data
+    from data_loader import load_data
 
     docs_dict, train_pairs, val_pairs = load_data()
     doc_texts = list(docs_dict.values())
