@@ -198,5 +198,1005 @@
       381,
       365
     ]
+  },
+  {
+    "query": "the exact asymptotic of",
+    "pos_id": 215,
+    "neg_ids": [
+      688,
+      275
+    ]
+  },
+  {
+    "query": "detailed kinetic study of",
+    "pos_id": 700,
+    "neg_ids": [
+      664,
+      74
+    ]
+  },
+  {
+    "query": "temporal evolution of step-edge",
+    "pos_id": 624,
+    "neg_ids": [
+      652,
+      176
+    ]
+  },
+  {
+    "query": "mid-infrared fine structure line",
+    "pos_id": 547,
+    "neg_ids": [
+      251,
+      168
+    ]
+  },
+  {
+    "query": "application of ewald summations",
+    "pos_id": 474,
+    "neg_ids": [
+      389,
+      277
+    ]
+  },
+  {
+    "query": "necessary optimality conditions for",
+    "pos_id": 656,
+    "neg_ids": [
+      571,
+      225
+    ]
+  },
+  {
+    "query": "optical properties of the",
+    "pos_id": 333,
+    "neg_ids": [
+      58,
+      235
+    ]
+  },
+  {
+    "query": "convergence of the discrete",
+    "pos_id": 33,
+    "neg_ids": [
+      325,
+      412
+    ]
+  },
+  {
+    "query": "mapping radii of metric",
+    "pos_id": 275,
+    "neg_ids": [
+      68,
+      217
+    ]
+  },
+  {
+    "query": "counting characters in linear",
+    "pos_id": 581,
+    "neg_ids": [
+      323,
+      218
+    ]
+  },
+  {
+    "query": "hamiltonian formalism in friedmann",
+    "pos_id": 672,
+    "neg_ids": [
+      512,
+      406
+    ]
+  },
+  {
+    "query": "long gamma-ray burst progenitors:",
+    "pos_id": 659,
+    "neg_ids": [
+      470,
+      147
+    ]
+  },
+  {
+    "query": "a comparison between anomalous",
+    "pos_id": 272,
+    "neg_ids": [
+      143,
+      253
+    ]
+  },
+  {
+    "query": "a non-perturbative proof of",
+    "pos_id": 575,
+    "neg_ids": [
+      552,
+      270
+    ]
+  },
+  {
+    "query": "x-ray dichroism and the",
+    "pos_id": 599,
+    "neg_ids": [
+      439,
+      598
+    ]
+  },
+  {
+    "query": "on the over-barrier reflection",
+    "pos_id": 409,
+    "neg_ids": [
+      371,
+      225
+    ]
+  },
+  {
+    "query": "some aspects of the",
+    "pos_id": 142,
+    "neg_ids": [
+      523,
+      507
+    ]
+  },
+  {
+    "query": "timing and lensing of",
+    "pos_id": 94,
+    "neg_ids": [
+      49,
+      114
+    ]
+  },
+  {
+    "query": "alternative approaches to the",
+    "pos_id": 157,
+    "neg_ids": [
+      644,
+      165
+    ]
+  },
+  {
+    "query": "cp violation due to",
+    "pos_id": 697,
+    "neg_ids": [
+      433,
+      611
+    ]
+  },
+  {
+    "query": "lagrangian quantum field theory",
+    "pos_id": 66,
+    "neg_ids": [
+      396,
+      392
+    ]
+  },
+  {
+    "query": "modeling the field of",
+    "pos_id": 611,
+    "neg_ids": [
+      480,
+      542
+    ]
+  },
+  {
+    "query": "correlation functions in the",
+    "pos_id": 258,
+    "neg_ids": [
+      568,
+      12
+    ]
+  },
+  {
+    "query": "cp violation due to",
+    "pos_id": 697,
+    "neg_ids": [
+      118,
+      700
+    ]
+  },
+  {
+    "query": "the old open clusters",
+    "pos_id": 550,
+    "neg_ids": [
+      274,
+      658
+    ]
+  },
+  {
+    "query": "the colin de verdi\\`ere",
+    "pos_id": 349,
+    "neg_ids": [
+      115,
+      301
+    ]
+  },
+  {
+    "query": "the classification of surfaces",
+    "pos_id": 446,
+    "neg_ids": [
+      162,
+      466
+    ]
+  },
+  {
+    "query": "a determinant of stirling",
+    "pos_id": 4,
+    "neg_ids": [
+      271,
+      514
+    ]
+  },
+  {
+    "query": "temperature dependence of the",
+    "pos_id": 183,
+    "neg_ids": [
+      521,
+      109
+    ]
+  },
+  {
+    "query": "quantum engineering of photon",
+    "pos_id": 641,
+    "neg_ids": [
+      306,
+      656
+    ]
+  },
+  {
+    "query": "a critical theory of",
+    "pos_id": 520,
+    "neg_ids": [
+      625,
+      204
+    ]
+  },
+  {
+    "query": "alternative approaches to the",
+    "pos_id": 157,
+    "neg_ids": [
+      384,
+      167
+    ]
+  },
+  {
+    "query": "spontaneous lorentz violation: non-abelian",
+    "pos_id": 553,
+    "neg_ids": [
+      544,
+      1
+    ]
+  },
+  {
+    "query": "proper holomorphic mappings of",
+    "pos_id": 614,
+    "neg_ids": [
+      332,
+      501
+    ]
+  },
+  {
+    "query": "measurement of the hadronic",
+    "pos_id": 20,
+    "neg_ids": [
+      116,
+      373
+    ]
+  },
+  {
+    "query": "the small deviations of",
+    "pos_id": 315,
+    "neg_ids": [
+      246,
+      60
+    ]
+  },
+  {
+    "query": "geometry of four-dimensional killing",
+    "pos_id": 247,
+    "neg_ids": [
+      582,
+      81
+    ]
+  },
+  {
+    "query": "some new experimental photonic",
+    "pos_id": 88,
+    "neg_ids": [
+      499,
+      71
+    ]
+  },
+  {
+    "query": "persistent currents in superconducting",
+    "pos_id": 546,
+    "neg_ids": [
+      129,
+      132
+    ]
+  },
+  {
+    "query": "a very massive runaway",
+    "pos_id": 676,
+    "neg_ids": [
+      487,
+      563
+    ]
+  },
+  {
+    "query": "symmetry disquisition on the",
+    "pos_id": 170,
+    "neg_ids": [
+      273,
+      542
+    ]
+  },
+  {
+    "query": "on the number of",
+    "pos_id": 622,
+    "neg_ids": [
+      434,
+      217
+    ]
+  },
+  {
+    "query": "spontaneous lorentz violation: non-abelian",
+    "pos_id": 553,
+    "neg_ids": [
+      206,
+      320
+    ]
+  },
+  {
+    "query": "on the over-barrier reflection",
+    "pos_id": 409,
+    "neg_ids": [
+      689,
+      667
+    ]
+  },
+  {
+    "query": "the exact boundary condition",
+    "pos_id": 383,
+    "neg_ids": [
+      450,
+      531
+    ]
+  },
+  {
+    "query": "mass and temperature of",
+    "pos_id": 463,
+    "neg_ids": [
+      124,
+      254
+    ]
+  },
+  {
+    "query": "interpolating and sampling sequences",
+    "pos_id": 231,
+    "neg_ids": [
+      66,
+      348
+    ]
+  },
+  {
+    "query": "stochastic lie group integrators",
+    "pos_id": 22,
+    "neg_ids": [
+      604,
+      569
+    ]
+  },
+  {
+    "query": "curvature flows in semi-riemannian",
+    "pos_id": 236,
+    "neg_ids": [
+      604,
+      226
+    ]
+  },
+  {
+    "query": "numerical solution of shock",
+    "pos_id": 8,
+    "neg_ids": [
+      74,
+      648
+    ]
+  },
+  {
+    "query": "intersection bodies and generalized",
+    "pos_id": 61,
+    "neg_ids": [
+      236,
+      71
+    ]
+  },
+  {
+    "query": "convergence of the discrete",
+    "pos_id": 33,
+    "neg_ids": [
+      340,
+      74
+    ]
+  },
+  {
+    "query": "towards skyrmion stars: large",
+    "pos_id": 527,
+    "neg_ids": [
+      244,
+      286
+    ]
+  },
+  {
+    "query": "statistical analysis of weighted",
+    "pos_id": 686,
+    "neg_ids": [
+      498,
+      220
+    ]
+  },
+  {
+    "query": "spontaneous lorentz violation: non-abelian",
+    "pos_id": 553,
+    "neg_ids": [
+      136,
+      586
+    ]
+  },
+  {
+    "query": "quantum criticality and disorder",
+    "pos_id": 591,
+    "neg_ids": [
+      485,
+      249
+    ]
+  },
+  {
+    "query": "optimal shape design for",
+    "pos_id": 485,
+    "neg_ids": [
+      417,
+      195
+    ]
+  },
+  {
+    "query": "conformal field theory and",
+    "pos_id": 97,
+    "neg_ids": [
+      101,
+      676
+    ]
+  },
+  {
+    "query": "quantum electromagnetic x-waves",
+    "pos_id": 442,
+    "neg_ids": [
+      363,
+      434
+    ]
+  },
+  {
+    "query": "the sigma-d relation for",
+    "pos_id": 421,
+    "neg_ids": [
+      480,
+      56
+    ]
+  },
+  {
+    "query": "fuzzballs with internal excitations",
+    "pos_id": 690,
+    "neg_ids": [
+      670,
+      662
+    ]
+  },
+  {
+    "query": "the birth of string",
+    "pos_id": 101,
+    "neg_ids": [
+      63,
+      414
+    ]
+  },
+  {
+    "query": "what can emission lines",
+    "pos_id": 348,
+    "neg_ids": [
+      112,
+      255
+    ]
+  },
+  {
+    "query": "analysis of random boolean",
+    "pos_id": 197,
+    "neg_ids": [
+      195,
+      551
+    ]
+  },
+  {
+    "query": "the kilodegree extremely little",
+    "pos_id": 460,
+    "neg_ids": [
+      144,
+      433
+    ]
+  },
+  {
+    "query": "biased random walks on",
+    "pos_id": 188,
+    "neg_ids": [
+      287,
+      475
+    ]
+  },
+  {
+    "query": "multi-spectral observations of lunar",
+    "pos_id": 256,
+    "neg_ids": [
+      78,
+      455
+    ]
+  },
+  {
+    "query": "spectral action on noncommutative",
+    "pos_id": 564,
+    "neg_ids": [
+      101,
+      52
+    ]
+  },
+  {
+    "query": "j/psi production in an",
+    "pos_id": 668,
+    "neg_ids": [
+      554,
+      16
+    ]
+  },
+  {
+    "query": "much ado about 248",
+    "pos_id": 96,
+    "neg_ids": [
+      244,
+      172
+    ]
+  },
+  {
+    "query": "thermodynamic stability - a",
+    "pos_id": 417,
+    "neg_ids": [
+      499,
+      494
+    ]
+  },
+  {
+    "query": "the radio emission, x-ray",
+    "pos_id": 219,
+    "neg_ids": [
+      412,
+      61
+    ]
+  },
+  {
+    "query": "very strong and slowly",
+    "pos_id": 169,
+    "neg_ids": [
+      390,
+      3
+    ]
+  },
+  {
+    "query": "the s-matrix of ads/cft",
+    "pos_id": 400,
+    "neg_ids": [
+      272,
+      467
+    ]
+  },
+  {
+    "query": "isospin breaking in the",
+    "pos_id": 293,
+    "neg_ids": [
+      435,
+      571
+    ]
+  },
+  {
+    "query": "generation of large number-path",
+    "pos_id": 678,
+    "neg_ids": [
+      499,
+      159
+    ]
+  },
+  {
+    "query": "group-theoretical properties of nilpotent",
+    "pos_id": 195,
+    "neg_ids": [
+      305,
+      224
+    ]
+  },
+  {
+    "query": "coulomb excitation of unstable",
+    "pos_id": 60,
+    "neg_ids": [
+      595,
+      557
+    ]
+  },
+  {
+    "query": "experimental efforts in search",
+    "pos_id": 63,
+    "neg_ids": [
+      323,
+      59
+    ]
+  },
+  {
+    "query": "quantum field theory on",
+    "pos_id": 52,
+    "neg_ids": [
+      600,
+      490
+    ]
+  },
+  {
+    "query": "temperature dependence of coulomb",
+    "pos_id": 515,
+    "neg_ids": [
+      545,
+      162
+    ]
+  },
+  {
+    "query": "the mass and radius",
+    "pos_id": 59,
+    "neg_ids": [
+      522,
+      84
+    ]
+  },
+  {
+    "query": "intricate knots in proteins:",
+    "pos_id": 191,
+    "neg_ids": [
+      71,
+      611
+    ]
+  },
+  {
+    "query": "coincidence of the oscillations",
+    "pos_id": 70,
+    "neg_ids": [
+      693,
+      242
+    ]
+  },
+  {
+    "query": "leaky modes of a",
+    "pos_id": 414,
+    "neg_ids": [
+      123,
+      585
+    ]
+  },
+  {
+    "query": "the spitzer c2d survey",
+    "pos_id": 253,
+    "neg_ids": [
+      594,
+      610
+    ]
+  },
+  {
+    "query": "quantum group of isometries",
+    "pos_id": 41,
+    "neg_ids": [
+      636,
+      85
+    ]
+  },
+  {
+    "query": "reduced phase space and",
+    "pos_id": 430,
+    "neg_ids": [
+      675,
+      599
+    ]
+  },
+  {
+    "query": "substructures in wings clusters",
+    "pos_id": 579,
+    "neg_ids": [
+      536,
+      324
+    ]
+  },
+  {
+    "query": "automated generation of layout",
+    "pos_id": 268,
+    "neg_ids": [
+      210,
+      687
+    ]
+  },
+  {
+    "query": "emergence of spatiotemporal chaos",
+    "pos_id": 322,
+    "neg_ids": [
+      245,
+      272
+    ]
+  },
+  {
+    "query": "finite drude weight for",
+    "pos_id": 406,
+    "neg_ids": [
+      135,
+      689
+    ]
+  },
+  {
+    "query": "ample subvarieties and rationally",
+    "pos_id": 661,
+    "neg_ids": [
+      308,
+      469
+    ]
+  },
+  {
+    "query": "on the pseudospectrum of",
+    "pos_id": 324,
+    "neg_ids": [
+      75,
+      10
+    ]
+  },
+  {
+    "query": "testing turbulence model at",
+    "pos_id": 470,
+    "neg_ids": [
+      638,
+      578
+    ]
+  },
+  {
+    "query": "generalized regularly discontinuous solutions",
+    "pos_id": 103,
+    "neg_ids": [
+      76,
+      552
+    ]
+  },
+  {
+    "query": "the radio emission, x-ray",
+    "pos_id": 219,
+    "neg_ids": [
+      520,
+      273
+    ]
+  },
+  {
+    "query": "compounding fields and their",
+    "pos_id": 136,
+    "neg_ids": [
+      359,
+      71
+    ]
+  },
+  {
+    "query": "entanglement of subspaces and",
+    "pos_id": 251,
+    "neg_ids": [
+      380,
+      293
+    ]
+  },
+  {
+    "query": "estimation of experimental data",
+    "pos_id": 162,
+    "neg_ids": [
+      450,
+      558
+    ]
+  },
+  {
+    "query": "vlbi observations of nineteen",
+    "pos_id": 310,
+    "neg_ids": [
+      628,
+      671
+    ]
+  },
+  {
+    "query": "hilbert functions of points",
+    "pos_id": 542,
+    "neg_ids": [
+      9,
+      685
+    ]
+  },
+  {
+    "query": "thermally stimulated luminescence and",
+    "pos_id": 568,
+    "neg_ids": [
+      307,
+      681
+    ]
+  },
+  {
+    "query": "experimental modeling of physical",
+    "pos_id": 107,
+    "neg_ids": [
+      139,
+      272
+    ]
+  },
+  {
+    "query": "quasi-quartet crystal electric field",
+    "pos_id": 119,
+    "neg_ids": [
+      110,
+      568
+    ]
+  },
+  {
+    "query": "oxygen-rich droplets and the",
+    "pos_id": 160,
+    "neg_ids": [
+      280,
+      290
+    ]
+  },
+  {
+    "query": "white dwarf masses derived",
+    "pos_id": 620,
+    "neg_ids": [
+      216,
+      352
+    ]
+  },
+  {
+    "query": "chandra observations of supernova",
+    "pos_id": 209,
+    "neg_ids": [
+      651,
+      272
+    ]
+  },
+  {
+    "query": "dust and gas emission",
+    "pos_id": 518,
+    "neg_ids": [
+      501,
+      258
+    ]
+  },
+  {
+    "query": "a global approach to",
+    "pos_id": 53,
+    "neg_ids": [
+      96,
+      651
+    ]
+  },
+  {
+    "query": "protein and ionic surfactants",
+    "pos_id": 434,
+    "neg_ids": [
+      284,
+      46
+    ]
+  },
+  {
+    "query": "a determinant of stirling",
+    "pos_id": 4,
+    "neg_ids": [
+      343,
+      135
+    ]
+  },
+  {
+    "query": "`st\\\"uckelberg interferometry' with ultracold",
+    "pos_id": 653,
+    "neg_ids": [
+      269,
+      166
+    ]
+  },
+  {
+    "query": "antiferromagnetism-superconductivity competition in electron-doped",
+    "pos_id": 453,
+    "neg_ids": [
+      566,
+      438
+    ]
+  },
+  {
+    "query": "a non-perturbative proof of",
+    "pos_id": 575,
+    "neg_ids": [
+      10,
+      115
+    ]
+  },
+  {
+    "query": "linear perturbations of matched",
+    "pos_id": 78,
+    "neg_ids": [
+      154,
+      560
+    ]
+  },
+  {
+    "query": "the discrete dipole approximation",
+    "pos_id": 37,
+    "neg_ids": [
+      380,
+      598
+    ]
+  },
+  {
+    "query": "canonical singular hermitian metrics",
+    "pos_id": 566,
+    "neg_ids": [
+      152,
+      441
+    ]
+  },
+  {
+    "query": "vacuum structure and potential",
+    "pos_id": 131,
+    "neg_ids": [
+      43,
+      317
+    ]
+  },
+  {
+    "query": "gravity-induced electric polarization of",
+    "pos_id": 374,
+    "neg_ids": [
+      41,
+      367
+    ]
+  },
+  {
+    "query": "ab initio study of",
+    "pos_id": 216,
+    "neg_ids": [
+      700,
+      257
+    ]
+  },
+  {
+    "query": "partially disordered state near",
+    "pos_id": 683,
+    "neg_ids": [
+      106,
+      363
+    ]
+  },
+  {
+    "query": "on the potential of",
+    "pos_id": 574,
+    "neg_ids": [
+      417,
+      637
+    ]
+  },
+  {
+    "query": "evidence for an excitonic",
+    "pos_id": 159,
+    "neg_ids": [
+      244,
+      168
+    ]
+  },
+  {
+    "query": "huge magneto-crystalline anisotropy of",
+    "pos_id": 182,
+    "neg_ids": [
+      424,
+      26
+    ]
   }
 ]

@@ -1,16 +1,17 @@
+#j'ai ajouté ce fichier pour générer les paires 
+
 import json
 import random
 
-# --- chemins des fichiers ---
 docs_path = "data/docs.json"
 pairs_path = "data/pairs.json"
 
-# --- charger les documents ---
+# charger les documents 
 with open(docs_path, "r", encoding="utf-8") as f:
     docs = json.load(f)
 
-# --- paramètres ---
-n_pairs = 25  # nombre de requêtes à générer
+
+n_pairs = 150  
 random.seed(42)
 
 pairs = []
@@ -20,11 +21,11 @@ for _ in range(n_pairs):
     pos_id = pos_doc["id"]
     title = pos_doc["title"]
 
-    # créer une requête simple à partir du titre
-    query_words = title.lower().split()[:4]  # 3–4 premiers mots
+    
+    query_words = title.lower().split()[:4]  
     query = " ".join(query_words)
 
-    # choisir 2 documents négatifs différents
+    
     neg_docs = random.sample([d for d in docs if d["id"] != pos_id], 2)
     neg_ids = [neg_docs[0]["id"], neg_docs[1]["id"]]
 
@@ -34,7 +35,7 @@ for _ in range(n_pairs):
         "neg_ids": neg_ids
     })
 
-# --- sauvegarde du fichier ---
+
 with open(pairs_path, "w", encoding="utf-8") as f:
     json.dump(pairs, f, ensure_ascii=False, indent=2)
 

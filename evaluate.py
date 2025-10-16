@@ -1,4 +1,3 @@
-# evaluate.py
 import torch
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -40,7 +39,7 @@ def compute_mrr(model, encoder, docs_dict, val_pairs, device):
         sorted_indices = np.argsort(scores)[::-1]
         ranked_doc_ids = [list(docs_dict.keys())[i] for i in sorted_indices]
 
-        # Trouver la position du document positif
+        # Trouver le document positif
         rank = ranked_doc_ids.index(pos_id) + 1
         ranks.append(1.0 / rank)
 
@@ -78,7 +77,6 @@ def compute_recall_at_k(model, encoder, docs_dict, val_pairs, device, k=3):
 
 
 def tfidf_baseline(docs_dict, val_pairs):
-    """Baseline TF-IDF pour comparaison"""
     vectorizer = TfidfVectorizer()
     all_docs = list(docs_dict.values())
     X = vectorizer.fit_transform(all_docs)
@@ -99,7 +97,6 @@ def tfidf_baseline(docs_dict, val_pairs):
 
 
 def visualize_attention(model, encoder, query, doc_text, device):
-    """Affiche les poids d’attention sous forme de heatmap"""
     import seaborn as sns
 
     q_emb = encoder.encode([query]).to(device)
@@ -115,25 +112,22 @@ def visualize_attention(model, encoder, query, doc_text, device):
 
 
 if __name__ == "__main__":
-    # 1️⃣ Charger les données et le modèle
     docs_dict, train_pairs, val_pairs = load_data()
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     encoder = TextEncoder().to(device)
-    model = CrossAttention(embed_dim=768).to(device)
+    model = CrossAttention(embed_dim=128).to(device)
 
-    # 2️⃣ Calculer les métriques
+    # Calculer des métriques
     mrr = compute_mrr(model, encoder, docs_dict, val_pairs, device)
     recall = compute_recall_at_k(model, encoder, docs_dict, val_pairs, device, k=3)
     baseline_mrr = tfidf_baseline(docs_dict, val_pairs)
 
-    # 3️⃣ Afficher les résultats
     print("\n📊 Résultats d'évaluation :")
     print(f"MRR (modèle attention) : {mrr:.4f}")
     print(f"Recall@3 (modèle attention) : {recall:.4f}")
     print(f"MRR (baseline TF-IDF) : {baseline_mrr:.4f}")
 
-    # 4️⃣ Visualisation (optionnelle)
     sample = val_pairs[0]
     query = sample["query"]
     doc_text = docs_dict[sample["pos_id"]]

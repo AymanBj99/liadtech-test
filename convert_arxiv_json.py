@@ -1,7 +1,10 @@
+#j'ai ajouté ce fichier pour convertir le fichier json en un fichier json compatible avec le code 
+# car la format du fichier json n'était pas compatible avec le code 
+
 import json
 
-input_path = "data/arxiv_data.json"     # ton fichier téléchargé depuis Kaggle
-output_path = "data/docs.json"          # le fichier final compatible avec ton code
+input_path = "data/arxiv_data.json"     
+output_path = "data/docs.json"          
 
 docs = []
 
@@ -12,15 +15,14 @@ with open(input_path, "r", encoding="utf-8") as f:
             docs.append({
                 "id": i + 1,
                 "title": paper.get("title", ""),
-                "abstract": paper.get("abstract", "")  # 'summary' → 'abstract'
+                "abstract": paper.get("abstract", "")  
             })
         except json.JSONDecodeError:
-            continue  # ignore les lignes corrompues
+            continue  
 
-        if i >= 700:  # garde les 1000 premiers pour être léger
+        if i >= 700:  # j'ai gardé les 700 premiers pour être léger
             break
 
-# Sauvegarde au format JSON standard
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(docs, f, ensure_ascii=False, indent=2)
 

@@ -41,7 +41,7 @@ class CrossAttention(nn.Module):
 if __name__ == "__main__":
     batch_size = 2
     seq_len = 5
-    embed_dim = 768
+    embed_dim= 128
 
     # Fake data
     Q = torch.rand(batch_size, embed_dim)

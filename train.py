@@ -1,23 +1,21 @@
-# train.py
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
-
+import matplotlib.pyplot as plt
 from data_loader import load_data
 from encoder import TextEncoder
 from attention import CrossAttention
 
 
 class TripletTrainer:
-    def __init__(self, embed_dim=768, margin=0.2, lr=2e-5, device=None):
+    def __init__(self, embed_dim=128, margin=0.2, lr=2e-5, device=None):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.encoder = TextEncoder().to(self.device)
         self.model = CrossAttention(embed_dim).to(self.device)
         self.loss_fn = nn.TripletMarginLoss(margin=margin)
         self.optimizer = optim.Adam(
-            list(self.encoder.parameters()) + list(self.model.parameters()),
-            lr=lr
+            list(self.encoder.parameters()) + list(self.model.parameters()), lr=lr
         )
 
     def compute_score(self, query_emb, doc_emb):
@@ -38,7 +36,7 @@ class TripletTrainer:
 
             queries = [p["query"] for p in batch]
             pos_docs = [docs_dict[p["pos_id"]] for p in batch]
-            neg_docs = [docs_dict[p["neg_ids"][0]] for p in batch]  # un négatif par requête
+            neg_docs = [docs_dict[p["neg_ids"][0]] for p in batch] 
 
             # Encode
             q_emb = self.encoder.encode(queries).to(self.device)
@@ -53,7 +51,7 @@ class TripletTrainer:
             loss = self.loss_fn(pos_score, neg_score, torch.zeros_like(pos_score))
             total_loss += loss.item()
 
-            # Backpropagation
+            
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
@@ -64,13 +62,27 @@ class TripletTrainer:
 
 
 if __name__ == "__main__":
-    # 1️⃣ Charger les données
+    # chargement des données
     docs_dict, train_pairs, val_pairs = load_data()
 
-    # 2️⃣ Initialiser le trainer
+    # Initialistion du trainer
     trainer = TripletTrainer()
 
-    # 3️⃣ Entraîner pour quelques epochs
-    for epoch in range(2):
+    num_epochs = 5
+    losses = []
+
+    for epoch in range(num_epochs):
         print(f"\n🚀 Epoch {epoch + 1}")
-        trainer.train_one_epoch(train_pairs, docs_dict)
+        avg_loss = trainer.train_one_epoch(train_pairs, docs_dict)
+        losses.append(avg_loss)
+
+    #graphique dela courbe de perte
+    plt.figure(figsize=(6, 4))
+    plt.plot(range(1, num_epochs + 1), losses, marker="o", color="blue", linewidth=2)
+    plt.title("Courbe de perte d'entraînement")
+    plt.xlabel("Époque")
+    plt.ylabel("Loss moyenne")
+    plt.grid(True)
+    plt.show()
+
+    print("\n📈 Courbe de perte sauvegardée dans 'training_loss_curve.png'")

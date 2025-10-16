@@ -1,10 +1,10 @@
-# encoder.py
+
 from transformers import AutoTokenizer, AutoModel
 import torch
 import torch.nn as nn
 
 class TextEncoder(nn.Module):
-    def __init__(self, model_name="bert-base-uncased", device=None):
+    def __init__(self, model_name="prajjwal1/bert-tiny", device=None):
         super(TextEncoder, self).__init__()
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         print(f"🔹 Chargement du modèle {model_name} sur {self.device}...")
@@ -30,11 +30,10 @@ class TextEncoder(nn.Module):
                 return_tensors="pt"
             ).to(self.device)
 
-            # Passage dans BERT
+           
             with torch.no_grad():
                 outputs = self.model(**inputs)
-                # On prend les embeddings [CLS] comme représentation globale
-                embeddings = outputs.last_hidden_state[:, 0, :]  # shape: (batch_size, 768)
+                embeddings = outputs.last_hidden_state[:, 0, :]  # (batch_size, 768)
 
             all_embeddings.append(embeddings.cpu())
 

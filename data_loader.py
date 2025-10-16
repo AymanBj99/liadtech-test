@@ -1,3 +1,5 @@
+#ce fichier est utilisé pour charger les données et les paires c pour ça je l'ai ajouter dans le projet
+
 import json
 import random
 from sklearn.model_selection import train_test_split
