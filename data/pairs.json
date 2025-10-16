@@ -1,9 +1,202 @@
 [
-    {"query": "deep learning for images", "pos_id": 1, "neg_ids": [2, 3]},
-    {"query": "transformer models for language", "pos_id": 5, "neg_ids": [1, 4]},
-    {"query": "object detection", "pos_id": 6, "neg_ids": [1, 3]},
-    {"query": "speech to text", "pos_id": 7, "neg_ids": [2, 5]},
-    {"query": "pretrained models reuse", "pos_id": 8, "neg_ids": [1, 3]},
-    {"query": "gradient descent optimization", "pos_id": 9, "neg_ids": [2, 5]},
-    {"query": "ai ethics and fairness", "pos_id": 10, "neg_ids": [1, 4]}
+  {
+    "query": "exploring the variable sky",
+    "pos_id": 655,
+    "neg_ids": [
+      115,
+      26
+    ]
+  },
+  {
+    "query": "on punctured pragmatic space-time",
+    "pos_id": 282,
+    "neg_ids": [
+      251,
+      229
+    ]
+  },
+  {
+    "query": "instanton liquid at finite",
+    "pos_id": 143,
+    "neg_ids": [
+      105,
+      694
+    ]
+  },
+  {
+    "query": "signal for space-time noncommutativity:",
+    "pos_id": 559,
+    "neg_ids": [
+      90,
+      606
+    ]
+  },
+  {
+    "query": "a variational formulation of",
+    "pos_id": 433,
+    "neg_ids": [
+      33,
+      31
+    ]
+  },
+  {
+    "query": "much ado about 248",
+    "pos_id": 96,
+    "neg_ids": [
+      225,
+      240
+    ]
+  },
+  {
+    "query": "dust and gas emission",
+    "pos_id": 518,
+    "neg_ids": [
+      618,
+      28
+    ]
+  },
+  {
+    "query": "a non-perturbative proof of",
+    "pos_id": 575,
+    "neg_ids": [
+      204,
+      667
+    ]
+  },
+  {
+    "query": "signal for space-time noncommutativity:",
+    "pos_id": 559,
+    "neg_ids": [
+      430,
+      226
+    ]
+  },
+  {
+    "query": "the kilodegree extremely little",
+    "pos_id": 460,
+    "neg_ids": [
+      605,
+      285
+    ]
+  },
+  {
+    "query": "polymer quantum mechanics and",
+    "pos_id": 7,
+    "neg_ids": [
+      165,
+      434
+    ]
+  },
+  {
+    "query": "the colin de verdi\\`ere",
+    "pos_id": 349,
+    "neg_ids": [
+      285,
+      160
+    ]
+  },
+  {
+    "query": "the return of a",
+    "pos_id": 221,
+    "neg_ids": [
+      346,
+      105
+    ]
+  },
+  {
+    "query": "geometry of locally compact",
+    "pos_id": 95,
+    "neg_ids": [
+      391,
+      101
+    ]
+  },
+  {
+    "query": "metal-insulator transition in the",
+    "pos_id": 368,
+    "neg_ids": [
+      353,
+      620
+    ]
+  },
+  {
+    "query": "an individual based model",
+    "pos_id": 271,
+    "neg_ids": [
+      45,
+      472
+    ]
+  },
+  {
+    "query": "the old open clusters",
+    "pos_id": 550,
+    "neg_ids": [
+      128,
+      388
+    ]
+  },
+  {
+    "query": "quantum deformations of relativistic",
+    "pos_id": 81,
+    "neg_ids": [
+      567,
+      302
+    ]
+  },
+  {
+    "query": "on the homfly and",
+    "pos_id": 644,
+    "neg_ids": [
+      634,
+      371
+    ]
+  },
+  {
+    "query": "spin coherence of holes",
+    "pos_id": 592,
+    "neg_ids": [
+      197,
+      72
+    ]
+  },
+  {
+    "query": "intelligent location of simultaneously",
+    "pos_id": 47,
+    "neg_ids": [
+      679,
+      235
+    ]
+  },
+  {
+    "query": "remnant evolution after a",
+    "pos_id": 297,
+    "neg_ids": [
+      82,
+      239
+    ]
+  },
+  {
+    "query": "a geometric realization of",
+    "pos_id": 104,
+    "neg_ids": [
+      391,
+      286
+    ]
+  },
+  {
+    "query": "a general nonlinear fokker-planck",
+    "pos_id": 465,
+    "neg_ids": [
+      652,
+      374
+    ]
+  },
+  {
+    "query": "low energy aspects of",
+    "pos_id": 167,
+    "neg_ids": [
+      381,
+      365
+    ]
+  }
 ]
